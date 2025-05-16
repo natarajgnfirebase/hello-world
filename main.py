@@ -8,6 +8,6 @@ parser.add_argument("--location", type=str, help="User's location")
 args = parser.parse_args()
 
 print("Received parameters Demo:")
-print(f"Name: {args.name})
+print(f"Name: {args.name}")
 print(f"Age: {args.age}")
 print(f"Location: {args.location}")
