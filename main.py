@@ -1,5 +1,5 @@
 import argparse
-
+import requests
 parser = argparse.ArgumentParser(description="Process extra vars")
 parser.add_argument("--name", type=str, help="User's name")
 parser.add_argument("--age", type=int, help="User's age")
