@@ -11,3 +11,11 @@ print("Received parameters Demo:")
 print(f"Name: {args.name}")
 print(f"Age: {args.age}")
 print(f"Location: {args.location}")
+url = "https://api.ipify.org?format=json"
+try:
+    response = requests.get(url)
+    response.raise_for_status()  # Raise exception for HTTP errors
+    data = response.json()
+    print({"output": {"ip": data["ip"]}})
+except requests.RequestException as e:
+    print("An error occurred:", e)
