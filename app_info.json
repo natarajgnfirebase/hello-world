@@ -1,9 +1,11 @@
 {
   "app_name": "xyz",
   "arguments": {
-    "ipaddress": "10.20.1.2",
-    "machine_name": "gcc_default_host_1",
-    "instance_type":"small",
-    "env":"development"
+    "pb_vmaas_env": "Production",
+    "pb_vmaas_provider": "OLVM",
+    "pb_vmaas_zone": "IAC_Cloud",
+    "pb_vmaas_image": "Ubuntu",
+    "pb_vmaas_os_version": "22.04 LTS x64",
+    "pb_vmaas_vmcount": 1
   }
 }
