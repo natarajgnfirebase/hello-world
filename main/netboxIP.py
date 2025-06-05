@@ -1,5 +1,6 @@
 import requests
 import urllib3
+import json
 
 NETBOX_URL = "https://10.25.52.203/api/"
 API_TOKEN = "2269dd604649fc8afc5d4b65e40be307722df617"
@@ -55,6 +56,8 @@ if __name__ == "__main__":
 
         ip = get_next_available_ip(prefix_id)
         print(f" Next available IP: {ip}")
+        output=json.dumps({"output": {"hostname":ip}})
+        print(output)
 
     except Exception as e:
         print(f" Error: {e}")
