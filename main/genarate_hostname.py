@@ -89,7 +89,8 @@ def main():
         ostype=os_type,
         count=pb_vmaas_vmcount
     )
-
+    output=json.dumps({"output": {"hostname":hostname}})
+    print(output)
     print(f"Generated hostname: {hostname}")
 
 
