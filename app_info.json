@@ -1,15 +1,11 @@
 {
   "app_name": "xyz",
   "arguments": {
-    "pb_vmaas_env": "Production",
-    "pb_vmaas_provider": "OLVM",
-    "pb_vmaas_zone": "IAC_Cloud",
-    "pb_vmaas_image": "Ubuntu",
-    "pb_vmaas_os_version": "22.04 LTS x64",
-    "pb_vmaas_vmcount": 1,
-    "pb_vmaas_network": "Govind_SDA_Test",
-    "pb_netbox_url": "http:/dummynetbox",
-    "pb_access_key": "dummy",
-    "pb_vm_name": ""
+    "ipaddress": "10.20.1.2",
+    "machine_name": "gcc_host_1",
+    "instance_type":"small",
+    "env":"development",
+    "comments":"testing",
+    "instance_spec_vars":"{}"
   }
 }
