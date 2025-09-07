@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
         ip = get_next_available_ip(prefix_id)
         print(f" Next available IP: {ip}")
-        output=json.dumps({"output": {"hostname":ip}})
+        output=json.dumps({"output": {"ipaddress":ip}})
         print(output)
 
     except Exception as e:
