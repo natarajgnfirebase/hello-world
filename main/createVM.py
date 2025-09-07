@@ -13,7 +13,7 @@ def main():
 
     args = parser.parse_args()
     vm_name = generate_vm_name(args.ipaddress, args.hostname)
-    output = json.dumps({"output": {"vm_name": vm_name}})
+    output = json.dumps({"output": {"vm_name": vm_name,"status":"ON"}})
     print(output)
 
 if __name__ == "__main__":
