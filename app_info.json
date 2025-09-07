@@ -10,6 +10,8 @@
     "pb_vmaas_network": "Govind_SDA_Test",
     "pb_netbox_url": "http:/dummynetbox",
     "pb_access_key": "dummy",
-    "pb_vm_name": ""
+    "pb_vm_name": "",
+    "ipaddress":"",
+    "hostname":""
   }
 }
