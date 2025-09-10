@@ -41,7 +41,7 @@ def get_next_available_ip(prefix_id):
 
 if __name__ == "__main__":
     try:
-        vlan = get_vlan_by_id(VLAN_ID)
+        vlan = get_vlan_by_id1(VLAN_ID)
         vlan_id = vlan["id"]
         vlan_name = vlan["name"]
         print(f" VLAN: {vlan_name} (ID: {VLAN_ID})")
